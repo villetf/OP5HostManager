@@ -1,0 +1,107 @@
+[
+  {
+    "notification_interval": 0,
+    "contact_groups": null,
+    "check_command": "check_nrpe_linux_ssh_localhost",
+    "servicegroups": null,
+    "service_description": "SSH Localhost",
+    "host_name": null
+  },
+  {
+    "notification_interval": 0,
+    "contact_groups": null,
+    "check_command": "check_nrpe_linux_proc_crond",
+    "servicegroups": null,
+    "service_description": "Crond Process",
+    "host_name": null
+  },
+  {
+    "notification_interval": 0,
+    "contact_groups": null,
+    "check_command": "check_nrpe_linux_disk_boot",
+    "servicegroups": null,
+    "service_description": "Disk Boot",
+    "host_name": null
+  },
+  {
+    "notification_interval": 0,
+    "contact_groups": null,
+    "check_command": "check_nrpe_linux_disk_root",
+    "servicegroups": null,
+    "service_description": "Disk Root",
+    "host_name": null
+  },
+  {
+    "notification_interval": 0,
+    "contact_groups": null,
+    "check_command": "check_nrpe_linux_dns_respons",
+    "servicegroups": null,
+    "service_description": "DNS Response",
+    "host_name": null
+  },
+  {
+    "notification_interval": 0,
+    "contact_groups": null,
+    "check_command": "check_nrpe_linux_load_avg_per_core",
+    "servicegroups": null,
+    "service_description": "Load Average per Core",
+    "host_name": null
+  },
+  {
+    "notification_interval": 0,
+    "contact_groups": null,
+    "check_command": "check_nrpe_linux_mem_free",
+    "servicegroups": null,
+    "service_description": "Memory Free",
+    "host_name": null
+  },
+  {
+    "notification_interval": 0,
+    "contact_groups": null,
+    "check_command": "check_nrpe_linux_ntp_offset",
+    "servicegroups": null,
+    "service_description": "NTP Offset",
+    "host_name": null
+  },
+  {
+    "check_command_args": "100,20%!500,60%",
+    "notification_interval": 0,
+    "contact_groups": null,
+    "check_command": "check_ping",
+    "servicegroups": null,
+    "service_description": "PING",
+    "host_name": null
+  },
+  {
+    "notification_interval": 0,
+    "contact_groups": null,
+    "check_command": "check_nrpe_linux_procs",
+    "servicegroups": null,
+    "service_description": "Total Processes",
+    "host_name": null
+  },
+  {
+    "notification_interval": 0,
+    "contact_groups": null,
+    "check_command": "check_nrpe_linux_uptime",
+    "servicegroups": null,
+    "service_description": "Uptime",
+    "host_name": null
+  },
+  {
+    "notification_interval": 0,
+    "contact_groups": null,
+    "check_command": "check_nrpe_linux_proc_zombie",
+    "servicegroups": null,
+    "service_description": "Zombie Processes",
+    "host_name": null
+  },
+  {
+    "notification_interval": 0,
+    "contact_groups": null,
+    "check_command": "check_nrpe_linux_os_updates",
+    "servicegroups": null,
+    "service_description": "OS Updates",
+    "host_name": null
+  }
+]

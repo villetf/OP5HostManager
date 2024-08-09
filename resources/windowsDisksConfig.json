@@ -1,0 +1,209 @@
+[
+  {
+    "check_command_args": "Drive=D MaxWarn=85% MaxCrit=95%",
+    "notification_interval": 0,
+    "contact_groups": null,
+    "check_command": "check_nrpe_win_drivesize",
+    "servicegroups": null,
+    "service_description": "Disk Usage D:",
+    "host_name": null
+  },
+  {
+    "check_command_args": "Drive=E MaxWarn=85% MaxCrit=95%",
+    "notification_interval": 0,
+    "contact_groups": null,
+    "check_command": "check_nrpe_win_drivesize",
+    "servicegroups": null,
+    "service_description": "Disk Usage E:",
+    "host_name": null
+  },
+  {
+    "check_command_args": "Drive=F MaxWarn=85% MaxCrit=95%",
+    "notification_interval": 0,
+    "contact_groups": null,
+    "check_command": "check_nrpe_win_drivesize",
+    "servicegroups": null,
+    "service_description": "Disk Usage F:",
+    "host_name": null
+  },
+  {
+    "check_command_args": "Drive=G MaxWarn=85% MaxCrit=95%",
+    "notification_interval": 0,
+    "contact_groups": null,
+    "check_command": "check_nrpe_win_drivesize",
+    "servicegroups": null,
+    "service_description": "Disk Usage G:",
+    "host_name": null
+  },
+  {
+    "check_command_args": "Drive=H MaxWarn=85% MaxCrit=95%",
+    "notification_interval": 0,
+    "contact_groups": null,
+    "check_command": "check_nrpe_win_drivesize",
+    "servicegroups": null,
+    "service_description": "Disk Usage H:",
+    "host_name": null
+  },
+  {
+   "check_command_args": "Drive=I MaxWarn=85% MaxCrit=95%",
+   "notification_interval": 0,
+   "contact_groups": null,
+   "check_command": "check_nrpe_win_drivesize",
+   "servicegroups": null,
+   "service_description": "Disk Usage I:",
+   "host_name": null
+ },
+ {
+   "check_command_args": "Drive=J MaxWarn=85% MaxCrit=95%",
+   "notification_interval": 0,
+   "contact_groups": null,
+   "check_command": "check_nrpe_win_drivesize",
+   "servicegroups": null,
+   "service_description": "Disk Usage J:",
+   "host_name": null
+ },
+ {
+   "check_command_args": "Drive=K MaxWarn=85% MaxCrit=95%",
+   "notification_interval": 0,
+   "contact_groups": null,
+   "check_command": "check_nrpe_win_drivesize",
+   "servicegroups": null,
+   "service_description": "Disk Usage K:",
+   "host_name": null
+ },
+ {
+   "check_command_args": "Drive=L MaxWarn=85% MaxCrit=95%",
+   "notification_interval": 0,
+   "contact_groups": null,
+   "check_command": "check_nrpe_win_drivesize",
+   "servicegroups": null,
+   "service_description": "Disk Usage L:",
+   "host_name": null
+ },
+ {
+   "check_command_args": "Drive=M MaxWarn=85% MaxCrit=95%",
+   "notification_interval": 0,
+   "contact_groups": null,
+   "check_command": "check_nrpe_win_drivesize",
+   "servicegroups": null,
+   "service_description": "Disk Usage M:",
+   "host_name": null
+ },
+ {
+   "check_command_args": "Drive=N MaxWarn=85% MaxCrit=95%",
+   "notification_interval": 0,
+   "contact_groups": null,
+   "check_command": "check_nrpe_win_drivesize",
+   "servicegroups": null,
+   "service_description": "Disk Usage N:",
+   "host_name": null
+ },
+ {
+   "check_command_args": "Drive=O MaxWarn=85% MaxCrit=95%",
+   "notification_interval": 0,
+   "contact_groups": null,
+   "check_command": "check_nrpe_win_drivesize",
+   "servicegroups": null,
+   "service_description": "Disk Usage O:",
+   "host_name": null
+ },
+ {
+   "check_command_args": "Drive=P MaxWarn=85% MaxCrit=95%",
+   "notification_interval": 0,
+   "contact_groups": null,
+   "check_command": "check_nrpe_win_drivesize",
+   "servicegroups": null,
+   "service_description": "Disk Usage P:",
+   "host_name": null
+ },
+ {
+   "check_command_args": "Drive=Q MaxWarn=85% MaxCrit=95%",
+   "notification_interval": 0,
+   "contact_groups": null,
+   "check_command": "check_nrpe_win_drivesize",
+   "servicegroups": null,
+   "service_description": "Disk Usage Q:",
+   "host_name": null
+ },
+ {
+   "check_command_args": "Drive=R MaxWarn=85% MaxCrit=95%",
+   "notification_interval": 0,
+   "contact_groups": null,
+   "check_command": "check_nrpe_win_drivesize",
+   "servicegroups": null,
+   "service_description": "Disk Usage R:",
+   "host_name": null
+ },
+ {
+   "check_command_args": "Drive=S MaxWarn=85% MaxCrit=95%",
+   "notification_interval": 0,
+   "contact_groups": null,
+   "check_command": "check_nrpe_win_drivesize",
+   "servicegroups": null,
+   "service_description": "Disk Usage S:",
+   "host_name": null
+ },
+ {
+   "check_command_args": "Drive=T MaxWarn=85% MaxCrit=95%",
+   "notification_interval": 0,
+   "contact_groups": null,
+   "check_command": "check_nrpe_win_drivesize",
+   "servicegroups": null,
+   "service_description": "Disk Usage T:",
+   "host_name": null
+ },
+ {
+   "check_command_args": "Drive=U MaxWarn=85% MaxCrit=95%",
+   "notification_interval": 0,
+   "contact_groups": null,
+   "check_command": "check_nrpe_win_drivesize",
+   "servicegroups": null,
+   "service_description": "Disk Usage U:",
+   "host_name": null
+ },
+ {
+   "check_command_args": "Drive=V MaxWarn=85% MaxCrit=95%",
+   "notification_interval": 0,
+   "contact_groups": null,
+   "check_command": "check_nrpe_win_drivesize",
+   "servicegroups": null,
+   "service_description": "Disk Usage V:",
+   "host_name": null
+ },
+ {
+   "check_command_args": "Drive=W MaxWarn=85% MaxCrit=95%",
+   "notification_interval": 0,
+   "contact_groups": null,
+   "check_command": "check_nrpe_win_drivesize",
+   "servicegroups": null,
+   "service_description": "Disk Usage W:",
+   "host_name": null
+ },
+ {
+   "check_command_args": "Drive=X MaxWarn=85% MaxCrit=95%",
+   "notification_interval": 0,
+   "contact_groups": null,
+   "check_command": "check_nrpe_win_drivesize",
+   "servicegroups": null,
+   "service_description": "Disk Usage X:",
+   "host_name": null
+ },
+ {
+   "check_command_args": "Drive=Y MaxWarn=85% MaxCrit=95%",
+   "notification_interval": 0,
+   "contact_groups": null,
+   "check_command": "check_nrpe_win_drivesize",
+   "servicegroups": null,
+   "service_description": "Disk Usage Y:",
+   "host_name": null
+ },
+ {
+   "check_command_args": "Drive=Z MaxWarn=85% MaxCrit=95%",
+   "notification_interval": 0,
+   "contact_groups": null,
+   "check_command": "check_nrpe_win_drivesize",
+   "servicegroups": null,
+   "service_description": "Disk Usage Z:",
+   "host_name": null
+ }
+]

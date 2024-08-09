@@ -1,0 +1,15 @@
+{
+  "host_name": null,
+  "notification_interval": 0,
+  "icon_image": "windows.png",
+  "address": null,
+  "alias": null,
+  "file_id": "etc/hosts.cfg",
+  "hostgroups": [
+    "All Windows Servers",
+    "01_all_hosts"
+  ],
+  "template": "default-host-template",
+  "contact_groups": null,
+  "notification_period": "24x7"
+}

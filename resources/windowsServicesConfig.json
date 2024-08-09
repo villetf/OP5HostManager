@@ -1,0 +1,64 @@
+[
+  {
+    "check_command_args": "60!70!90",
+    "notification_interval": 0,
+    "contact_groups": null,
+    "check_command": "check_nrpe_win_cpu",
+    "servicegroups": null,
+    "service_description": "CPU Load",
+    "host_name": null
+  },
+  {
+    "check_command_args": "CiscoAMP",
+    "notification_interval": 0,
+    "contact_groups": null,
+    "check_command": "check_nrpe_win_services",
+    "servicegroups": null,
+    "service_description": "Cisco Amp",
+    "host_name": null
+  },
+  {
+    "check_command_args": "Drive=C MaxWarn=85% MaxCrit=95%",
+    "notification_interval": 0,
+    "contact_groups": null,
+    "check_command": "check_nrpe_win_drivesize",
+    "servicegroups": null,
+    "service_description": "Disk Usage C:",
+    "host_name": null
+  },
+  {
+    "check_command_args": "80!90",
+    "notification_interval": 0,
+    "contact_groups": null,
+    "check_command": "check_nrpe_win_memory",
+    "servicegroups": null,
+    "service_description": "Memory Usage",
+    "host_name": null
+  },
+  {
+    "check_command_args": "100,20%!500,60%",
+    "notification_interval": 0,
+    "contact_groups": null,
+    "check_command": "check_ping",
+    "servicegroups": null,
+    "service_description": "PING",
+    "host_name": null
+  },
+  {
+    "notification_interval": 0,
+    "contact_groups": null,
+    "check_command": "check_nrpe_win_uptime",
+    "servicegroups": null,
+    "service_description": "Uptime",
+    "host_name": null
+  },
+  {
+    "check_command_args": "80!150!12",
+    "notification_interval": 0,
+    "contact_groups": null,
+    "check_command": "check_nrpe_win_updates",
+    "servicegroups": null,
+    "service_description": "Windows Updates",
+    "host_name": null
+  }
+]
