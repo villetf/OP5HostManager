@@ -6,6 +6,8 @@ Nuvarande version är: 1.3.0.
 
 Du kan kontrollera vilken version av OHM som är installerat genom att köra `Get-Module OP5HostManager` i en Powershellterminal.
 
+*Obs: På grund av sekretess har länkar och servernamn i detta projekt censurerats. De flesta länkar är därför döda.*
+
 ## Installation
 
 För att använda OP5HostManager krävs Powershell 7 eller högre. Vid behov, installera Powershell 7 genom att köra följande: 
