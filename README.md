@@ -40,7 +40,7 @@ Följande cmdlets finns, samt deras respektive alternativ när man använder gen
    Add-OP5Host lägger upp en host i OP5 med standardcheckarna för antingen Windows eller Linux, beroende på vad som är satt i OS-parametern. För Windows är dessa CPU Load, Cisco Amp, Disk Usage för det antal diskar man angett, Mem usage, PING, Uptime och Windows Updates.
    För Linux är standardcheckarna SSH Localhost, Crond Process, Disk Boot, Disk Root, DNS Response, Load Average per Core, Memory Free, NTP Offset, PING, Total Processes, Uptime, Zombie Processes och OS Updates. Syntaxen är `Add-OP5Host -Hostname "Namn på host" -System "System som körs på hosten (alias)" -Disks "Antal diskar" (om Windows) -Contactgroups "Lista med kontaktgrupper separerade med komma" -Servicegroups "Lista med servicegrupper separerade med komma" -OP5Environment "OP5 Test eller Prod" -OS "Windows eller Linux"`. Exempel:
    ```powershell
-   Add-OP5Host -Hostname server01 -OP5Environment Prod -System "Cosmic" -Disks 4 -Contactgroups OC,TSFV -Servicegroups "Cosmic","Cosmic Test" -OP5Environment Test -OS "Windows"
+   Add-OP5Host -Hostname server01 -OP5Environment Prod -System "DNS" -Disks 4 -Contactgroups OC,TSFV -Servicegroups "DNS","DNS Test" -OP5Environment Test -OS "Windows"
    ``` 
    Tidigare användes separata cmdlets för Windows och Linux (Add-OP5WindowsHost och Add-OP5LinuxHost), men sedan version 1.3.0 är dessa en gemensam cmdlet.
    <br><br>
@@ -72,4 +72,4 @@ Följande cmdlets finns, samt deras respektive alternativ när man använder gen
 
 ## Support
 
-För buggrapporter och förbättringsförslag, [öppna ett issue i Gitlab.](https://gitlab.lkl.ltkalmar.se/oc/op5hostmanager/-/issues "Issue") Märk issuet med någon av labelarna "Bugg" eller "Förbättringsförslag".
+För buggrapporter och förbättringsförslag, [öppna ett issue i Gitlab.](https://gitlab.secretdomain.se/oc/op5hostmanager/-/issues "Issue") Märk issuet med någon av labelarna "Bugg" eller "Förbättringsförslag".
