@@ -17,7 +17,7 @@ if ($PSVersionTable.PSEdition -ne "Core") {
 New-Item -ItemType Directory -Name "$env:LOCALAPPDATA\OP5HostManager"
 Set-Location "$env:LOCALAPPDATA\OP5HostManager"
 git init --initial-branch=main
-git remote add OHM https://gitlab.lkl.ltkalmar.se/oc/op5hostmanager
+git remote add OHM https://gitlab.ltkalmar.se/oc/op5hostmanager
 git pull OHM main
 git add *
 git commit -m "Första commiten"

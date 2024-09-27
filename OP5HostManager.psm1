@@ -46,10 +46,10 @@ function Edit-OP5 {
       ## Definierar variabler utifrån miljö
       if ($OP5Environment -match "Test") {
             $notUsedEnvironment = "Prod"
-            $env = "op5test.lkl.ltkalmar.se"
+            $env = "op5test.ltkalmar.se"
       } else {
          $notUsedEnvironment = "Test"
-         $env = "op5.lkl.ltkalmar.se"
+         $env = "op5.ltkalmar.se"
       }
 
       ## Ge alternativ på vad man vill göra och frågar användaren vilket
@@ -215,8 +215,8 @@ function Add-OP5Host {
 
    ## Kollar vilken miljö som angetts
    if ($OP5Environment -match "Test") {
-      $env = "op5test.lkl.ltkalmar.se"
-   } else {$env = "op5.lkl.ltkalmar.se"}
+      $env = "op5test.ltkalmar.se"
+   } else {$env = "op5.ltkalmar.se"}
 
    ## Hämtar autentiseringsuppgifter
    Get-Authentication -Env $env
@@ -224,9 +224,9 @@ function Add-OP5Host {
    ## Kontrollerar hostnamn
    $Hostname = Test-Hostname -Hostname $Hostname
 
-   ## Om hostnamnet matchar PC-namn, gör till små bokstäver och lägg på .lkl.ltkalmar.se, annars hämta IP-adress
+   ## Om hostnamnet matchar PC-namn, gör till små bokstäver och lägg på .ltkalmar.se, annars hämta IP-adress
    if ($Hostname -match "^(PC|PCX)\d{5,6}") {
-      $address = "$($Hostname.ToLower()).lkl.ltkalmar.se"
+      $address = "$($Hostname.ToLower()).ltkalmar.se"
    } else {
       $address = Get-IPAddress -Hostname $Hostname
       if (!$address) {
@@ -353,8 +353,8 @@ function Remove-OP5Host {
 
    ## Kolla vilken miljö som angetts
    if ($OP5Environment -match "Test") {
-      $env = "op5test.lkl.ltkalmar.se"
-   } else {$env = "op5.lkl.ltkalmar.se"}
+      $env = "op5test.ltkalmar.se"
+   } else {$env = "op5.ltkalmar.se"}
 
    ## Kollar om autentiseringsuppgifter har angetts, annars frågar om det och testar att de funkar
    Get-Authentication -Env $env
@@ -658,11 +658,11 @@ function Copy-OP5Host {
 
    ## Kolla vilken miljö som angetts
    if ($OP5Environment -match "Test") {
-      $env = "op5test.lkl.ltkalmar.se"
-      $notUsedEnv = "op5.lkl.ltkalmar.se"
+      $env = "op5test.ltkalmar.se"
+      $notUsedEnv = "op5.ltkalmar.se"
    } else {
-      $env = "op5.lkl.ltkalmar.se"
-      $notUsedEnv = "op5test.lkl.ltkalmar.se"
+      $env = "op5.ltkalmar.se"
+      $notUsedEnv = "op5test.ltkalmar.se"
    }
 
    ## Kolla om autentiseringsuppgifter har angetts, annars fråga om det och testar att de funkar
@@ -813,7 +813,7 @@ function Copy-OP5Host {
    if ($confirmAnswer -eq "Y") {
       try {
          Invoke-RestMethod -Uri "https://$notUsedEnv/api/config/change" -Method "POST" -Credential $cred | Out-Null
-         if ($env -eq "op5.lkl.ltkalmar.se") {
+         if ($env -eq "op5.ltkalmar.se") {
             Send-Log -FunctionID 106 -CurrentObject $Hostname | Out-Null
          } else {
             Send-Log -FunctionID 107 -CurrentObject $Hostname | Out-Null
@@ -1038,7 +1038,7 @@ function Get-IPAddress {
 
    try {
       ## Försök hämta IP-adress
-      $address = (Resolve-DnsName -Name "$Hostname.lkl.ltkalmar.se" -ErrorAction Stop).IPAddress
+      $address = (Resolve-DnsName -Name "$Hostname.ltkalmar.se" -ErrorAction Stop).IPAddress
    }
    catch {
       Start-Sleep -Seconds 2
@@ -1262,7 +1262,7 @@ function Send-Log {
    }
    
    ## Gör anrop mot Log4CjS
-   Invoke-RestMethod -Uri "https://serverx.lkl.ltkalmar.se/api/ohm/log" -Method Post -ContentType "application/json" -Body ($data | ConvertTo-Json)
+   Invoke-RestMethod -Uri "https://serverx.ltkalmar.se/api/ohm/log" -Method Post -ContentType "application/json" -Body ($data | ConvertTo-Json)
 }
 
 ## Definierar alias

@@ -72,4 +72,4 @@ Följande cmdlets finns, samt deras respektive alternativ när man använder gen
 
 ## Support
 
-För buggrapporter och förbättringsförslag, [öppna ett issue i Gitlab.](https://gitlab.secretdomain.se/oc/op5hostmanager/-/issues "Issue") Märk issuet med någon av labelarna "Bugg" eller "Förbättringsförslag".
+För buggrapporter och förbättringsförslag, [öppna ett issue i Gitlab.](https://gitlab.ltkalmar.se/oc/op5hostmanager/-/issues "Issue") Märk issuet med någon av labelarna "Bugg" eller "Förbättringsförslag".
